@@ -1,8 +1,45 @@
 body {
-  padding: 50px;
+  margin: 0;
+  padding: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  background: radial-gradient(black 3px, transparent 4px), radial-gradient(black 3px, transparent 4px), linear-gradient(#fff 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px; }
 
 a {
-  color: #00B7FF;
-}
+  color: #00B7FF; }
+
+div.header {
+  margin: 0;
+  padding: 2em;
+  color: white;
+  background-color: #26343F; }
+  div.header li {
+    display: inline;
+    margin: 1em;
+    padding: 2em;
+    cursor: pointer; }
+  div.header li:hover {
+    background-color: lightgray;
+    color: black;
+    transition: .5s; }
+
+div.content {
+  text-align: center; }
+
+div.footer {
+  margin: 0;
+  padding: 1em;
+  color: white;
+  background-color: #26343F;
+  text-align: right; }
+
+canvas {
+  background: white;
+  margin: 1em;
+  border-radius: 1em;
+  border: 1px solid #313131;
+  width: 800px;
+  height: 600px; }
+
+/*# sourceMappingURL=style.css.map */
